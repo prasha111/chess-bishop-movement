@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+Chess Bishop Movement
+This project is a web application that visualizes the movement capabilities of a bishop in chess. It's designed to help users understand how bishops navigate the chessboard, moving diagonally across squares.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo: chess-bishop-movement-cwsawf3og-prasha111s-projects.vercel.app
 
-## Available Scripts
+Features
+Interactive Chessboard: Click on any square to place a bishop and visualize all possible moves from that position.
+Dynamic Highlighting: The application highlights all squares the bishop can move to based on its current position.
+Responsive Design: Ensures a seamless experience across various devices, including desktops, tablets, and mobile phones.
+Technologies Used
+React.js: JavaScript library for building user interfaces.
+react-chessboard: A customizable and responsive chessboard component for React applications. react-chessboard on npm
+Chess.js: A library for chess move generation, validation, and game state management. Chess.js on npm
+Installation
+To run this project locally:
 
-In the project directory, you can run:
+Clone the repository:
 
-### `npm start`
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/chess-bishop-movement.git
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy
+Edit
+cd chess-bishop-movement
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-### `npm test`
+bash
+Copy
+Edit
+npm start
+The application should now be running on http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+Placing the Bishop: Click on any square to place the bishop.
+Visualizing Moves: Once placed, the application will automatically highlight all possible moves the bishop can make from its current position.
+Resetting: Click on a different square to move the bishop and update the highlighted moves accordingly.
+Contributing
+Contributions are welcome! To contribute:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Add new feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request detailing your changes.
+License
+This project is licensed under the MIT License.
